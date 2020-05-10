@@ -1,5 +1,9 @@
-const nodeChains = require('./nodechains')
+const Node = require('./node')
+const SinglyLinkedList = require('./singlylinkedlist')
+const linkedListExamples = require('./linkedListExamples')
 
 module.exports = {
-  nodeChains,
+  Node,
+  SinglyLinkedList,
+  linkedListExamples,
 }

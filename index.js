@@ -1,3 +1,3 @@
-const linkedList = require('./linkedlist')
+const {linkedListExamples} = require('./linkedlist')
 
-linkedList.nodeChains()
+linkedListExamples.singlyListExamples()
