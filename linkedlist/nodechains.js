@@ -3,6 +3,13 @@ class Node {
     this.value = value
     this.next = next
   }
+
+  static printList(node) {
+    while (node != null) {
+      console.log(node.value)
+      node = node.next
+    }
+  }
 }
 
 function runNodeChains() {
@@ -16,14 +23,7 @@ function runNodeChains() {
 
   second.next = third
 
-  function printList(node) {
-    while (node != null) {
-      console.log(node.value)
-      node = node.next
-    }
-  }
-
-  printList(first)
+  Node.printList(first)
 }
 
 module.exports = runNodeChains
