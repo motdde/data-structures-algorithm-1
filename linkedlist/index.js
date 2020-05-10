@@ -1,5 +1,5 @@
-const nodeChain = require('./nodechain')
+const nodeChains = require('./nodechains')
 
 module.exports = {
-  nodeChain,
+  nodeChains,
 }
